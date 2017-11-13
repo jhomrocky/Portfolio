@@ -1724,8 +1724,8 @@
 
 		.image.featured {
 			display: block;
-			width: 100%;
-			margin: 0 0 2em 0;
+			width: 80%;
+			margin: auto;
 		}
 
 		.image.left {
@@ -2558,3 +2558,15 @@
 				}
 
 	}
+
+    /*Portfolio example bottom margin removal*/
+
+#portfolio > div > div > div:nth-child(1) > article > header > ul {
+    margin-bottom: 0;
+}
+#portfolio > div > div > div:nth-child(2) > article > header > ul {
+    margin-bottom: 0;
+}
+#portfolio > div > div > div:nth-child(3) > article > header > ul {
+    margin-bottom: 0;
+}
